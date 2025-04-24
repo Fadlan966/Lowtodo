@@ -162,8 +162,6 @@
             class="fixed bottom-8 right-8 bg-gradient-to-br from-blue-500 to-blue-600 text-white w-16 h-16 rounded-full flex justify-center items-center shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer z-50 group"
             data-session-id="{{ $todoSession->id }}">
             <i class="fas fa-plus text-xl group-hover:rotate-90 transition-transform duration-300"></i>
-            <span
-                class="absolute -left-2 -top-2 bg-blue-400 text-xs rounded-full w-6 h-6 flex items-center justify-center animate-pulse">+</span>
         </button>
     </div>
 @endsection
