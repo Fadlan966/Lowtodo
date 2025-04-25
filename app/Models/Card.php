@@ -13,7 +13,6 @@ class Card extends Model
     const STATUS_PENDING = 'pending';
     const STATUS_COMPLETED = 'completed';
     const STATUS_LATE = 'late';
-    const STATUS_NOT_COMPLETED = 'Not Completed';
 
     protected $fillable = [
         'title',
